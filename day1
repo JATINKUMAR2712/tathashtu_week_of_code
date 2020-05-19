@@ -1,0 +1,61 @@
+1.
+name=input("ENETR YOUR NAME: ")
+branch=input("ENETR YOUR BRANCH: ")
+gender=input("ENETR YOUR GENDER: ")
+college_name=input("ENETR YOUR COLLEGE NAME: ")
+age=int(input("ENETR YOUR AGE: "))
+print("NAME: ",name)
+print("BRANCH: ",branch)
+print("GENDER: ",gender)
+print("COLLEGE NAME: ",college_name)
+print("AGE: ",age)
+
+2.
+number=float(input("ENTER ANY NUMBER"))
+sqrt=number ** 2
+print("square root of " , number, "is", sqrt)
+
+3.
+a=input("ENTER ANY NUMBER ")
+b=input("ENTER ANY NUMBER ")
+a=a+b
+b=a-b
+a=a-b
+print("After Swaping")
+print("value of a :",a)
+print("value of b :",b)
+
+4.
+  Cost_Price = float(input("ENTER COST PRICE OF PRODUCT:"))
+  SELLING_Price = float(input("ENTER SELLING PRICE OF PRODUCT:"))
+  profit = SELLING_Price - Cost_Price
+  New_Selling_Price = 1.05 * profit + Cost_Price
+  print("Profit from this sell is ",profit)
+  print("to increase the profit by 5% selling price should be ",New_Selling_Price) 
+  
+ 5.
+  run_player1 =int(input("ENTER RUN SCORE BY PLAYER1 IN 60 BALLS :"))
+  run_player2 =int(input("ENTER RUN SCORE BY PLAYER2 IN 60 BALLS :"))
+  run_player3 =int(input("ENTER RUN SCORE BY PLAYER3 IN 60 BALLS :"))
+
+  STRIKE_RATE1 =run_player1 * 100 /60
+  STRIKE_RATE2 =run_player1 * 100 /60
+  STRIKE_RATE3 =run_player1 * 100 /60
+
+  print("STRIKE RATE OF PLAYER1 IS : ",STRIKE_RATE1)
+  print("STRIKE RATE OF PLAYER2 IS : ",STRIKE_RATE2)
+  print("STRIKE RATE OF PLAYER3 IS : ",STRIKE_RATE3)
+
+ print("RUN SCORED BY PLAYER1 IF HE PLAY 60 BALL MORE : ",run_player1*2)
+ print("RUN SCORED BY PLAYER2 IF HE PLAY 60 BALL MORE : ",run_player2*2)
+ print("RUN SCORED BY PLAYER3 IF HE PLAY 60 BALL MORE : ",run_player2*2)
+
+ print("Maximum Six hit by PLayer 1  : ",run_player1//6)
+ print("Maximum Six hit by PLayer 2  : ",run_player2//6)
+ print("Maximum Six hit by PLayer 3  : ",run_player3//6)
+  
+
+
+
+
+
